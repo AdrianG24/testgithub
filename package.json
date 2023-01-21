@@ -22,7 +22,7 @@
   "dependencies": {
     "modern-normalize": "^1.1.0",
     "parcel-reporter-static-files-copy": "^1.4.0",
-    "pixi.js": "^7.0.4"
+    "pixi.js": "^7.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",

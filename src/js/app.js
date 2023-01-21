@@ -1,4 +1,4 @@
-import * as PIXI from './pixi.mjs';
+import * as PIXI from 'pixi.js';
 console.log(PIXI);
 
 window.PIXI = PIXI;
@@ -9,7 +9,7 @@ let app = new PIXI.Application({
 });
 document.body.appendChild(app.view);
 
-PIXI.loader.add("images/atlas.json").load( setup )
+PIXI.loader.add("../images/atlas.json").load( setup )
 
   function setup () {
     let id = PIXI.loader.resourses["images/atlas.json"].textures;
